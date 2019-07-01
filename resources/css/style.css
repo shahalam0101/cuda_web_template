@@ -87,7 +87,7 @@ html{
   background-repeat: no-repeat;
   background-position: center top;
   width: auto;
-  height: 600px;
+  height: ;
 }
 .services-hr:after{
     content: "";
@@ -109,7 +109,7 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height:700px;
+  height:;
   background-position: center top;
   background-attachment: fixed;
 
@@ -152,7 +152,7 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 600px;
+  height:;
   background-position: center top;
 }
 .skill-hr:after{
@@ -176,7 +176,7 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   width: auto;
-  height: 1090px;
+  height:;
   background-position: center top;
 }
 
@@ -207,6 +207,10 @@ html{
 }
 .portfolio-filter .mixitup-control-active{
   background: #fff;
+}
+.port-img{
+  width: 100%;
+  height: auto;
 }
 /* ==================== */
 /* TESTIMONIAL Section */
