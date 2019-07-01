@@ -1,0 +1,305 @@
+/* ==================== */
+/* BASIC SETUP */
+/* ==================== */
+*{
+
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+html{
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+
+/* ==================== */
+/* REUSABLE COMPONENTS */
+/* ==================== */
+
+
+/* ==================== */
+/* Nav Section */
+/* ==================== */
+
+
+.navbar .nav-item{
+	padding-right:20px;
+}
+
+.navbar .nav-item:last-child{
+	padding-right:0;
+}
+
+.navbar .nav-item .nav-link{
+	color: #ffffff;
+  text-size: 25px;
+}
+
+.navbar .nav-item .main-nav:hover{
+	color: #ffffff;
+  background: linear-gradient(rgba(100, 58, 121, 0.9),rgba(100, 58, 121, 0.9));
+  border-radius: 8px;
+}
+
+/* ==================== */
+/* Header Section */
+/* ==================== */
+#hero-part{
+  position: relative;
+  background-image: linear-gradient(rgba(50,146,156,0.9),rgba(50,146,156,0.9)), url('img/hero-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  color: #fff;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  display: block;
+
+}
+
+/*======= =======*/
+.hero-d a{
+  font-size: 12px;
+  padding: 10px 25px;
+  background-color: #eb7d4b;
+  border: none;
+}
+.home-header{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+/* ==================== */
+/* SERVICES Section */
+/* ==================== */
+#service-section{
+  background: linear-gradient(rgba(23, 194, 164, 0.9),rgba(23, 194, 164, 0.9)), url('img/services-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: auto;
+  height: 600px;
+}
+.services-hr:after{
+    content: "";
+    display: block;
+    background-color: #058670;
+    height: 5px;
+    width: 120px;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow:#058670 2px 2px 2px 0.2px;
+    border-radius: 10px;
+}
+
+/* ==================== */
+/* MEET OURE TEAM Section */
+/* ==================== */
+#team-meet-section{
+  background: linear-gradient(rgba(231, 241, 248, 0.9),rgba(231, 241, 248, 0.9)),url('img/team-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height:700px;
+  background-position: center top;
+  background-attachment: fixed;
+
+}
+.meet-hr:after{
+  content: "";
+  display: block;
+  background-color: #c8d9e5;
+  height: 5px;
+  width: 120px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow:#c8d9e5 2px 2px 2px 0.2px;
+  border-radius: 10px;
+}
+.meber-social a{
+  padding: 5px;
+  margin: auto;
+  text-decoration: none;
+  color: #ffffff;
+  background: #bdd1df;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  transition: 0.5s;
+}
+.meber-social a:hover{
+  background: #393939;
+  transform: rotate(360deg);
+}
+.member-expert{
+  color: #30bae7;
+}
+
+/* ==================== */
+/* SKILL Section */
+/* ==================== */
+#skill-section{
+  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.5)), url('img/skill-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 600px;
+  background-position: center top;
+}
+.skill-hr:after{
+  content: "";
+  display: block;
+  background-color: #c8d9e5;
+  height: 5px;
+  width: 120px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow:#c8d9e5 2px 2px 2px 0.2px;
+  border-radius: 10px;
+}
+
+/* ==================== */
+/* SKILL Section */
+/* ==================== */
+#portfolio-section{
+  background: linear-gradient(rgba(255, 225, 153, 0.9),rgba(255, 225, 153, 0.9)), url('img/portfolio-bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 1090px;
+  background-position: center top;
+}
+
+/* ==================== */
+/* PORTFOLIO Section */
+/* ==================== */
+.portfolio-hr:after{
+  content: "";
+  display: block;
+  background-color: #e5c37f;
+  height: 5px;
+  width: 120px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow:#e5c37f 2px 2px 2px 0.2px;
+  border-radius: 10px;
+}
+.portfolio-filter button{
+  background-color: #ebc985;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  transition: .5s;
+}
+.portfolio-filter button:hover{
+  cursor: pointer;
+  box-shadow: inset 0px 5px 5px rgba(60, 71, 97, 0.5);
+}
+.portfolio-filter .mixitup-control-active{
+  background: #fff;
+}
+/* ==================== */
+/* TESTIMONIAL Section */
+/* ==================== */
+.testimonial-hr:after{
+  content: "";
+  display: block;
+  background-color: #b73c6d;
+  height: 5px;
+  width: 120px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow:#b73c6d 2px 2px 2px 0.2px;
+  border-radius: 10px;
+}
+
+#testimonial{
+  background: linear-gradient(rgba(215, 70, 128, 0.9),rgba(215, 70, 128, 0.9)), url('img/testimonial-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.client-photo{
+  width: 100px;
+  height: 140px;
+  float: left;
+}
+.client-photo img{
+  height: 100px;
+}
+.clint-review{
+  width:350px
+}
+.occu{
+  color: #ffdd99
+}
+.client1{
+  margin-top: 40px;
+}
+.client2{
+  margin-top: 40px;
+}
+.client3{
+  margin-top: 80px;
+}
+.client4{
+  margin-top: 80px;
+}
+/* ==================== */
+/* CONTACT Section */
+/* ==================== */
+#contact-section{
+  background: linear-gradient(rgba(60, 84, 153, 0.9),rgba(60, 84, 153, 0.9)), url('img/contact-bg.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.contact-hr:after{
+  content: "";
+  display: block;
+  background-color: #273a71;
+  height: 5px;
+  width: 120px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow:#273a71 2px 2px 2px 0.2px;
+  border-radius: 10px;
+}
+.contact-bg{
+  background-color: #273a71;
+  border: 0;
+  column-rule-color: #ffffff;
+  margin-bottom: 25px;
+}
+.message-button{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  background-color: #30bae7;
+  padding: 20px 70px;
+  border: 0px;
+  border-bottom: 5px solid #299ec5;
+}
+.message-button:hover{
+  cursor: pointer;
+}
+/* ==================== */
+/* FOOTER Section */
+/* ==================== */
+footer{
+  background-color: #344b8e;
+  border-top: 1px solid #8495c7;
+}
+#footer-section a:hover{
+  color: #30bae7;
+}
